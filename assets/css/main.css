@@ -53,10 +53,9 @@ header {
 #section1 {
   background: #3023ae;
   background: linear-gradient(
-      rgb(109, 170, 215, 0.8) 0%,
-      rgb(48, 35, 174, 0.8) 100%
-    ),
-    url("./../images/header.png") no-repeat top fixed;
+    rgb(109, 170, 215, 0.8) 0%,
+    rgb(48, 35, 174, 0.8) 100%
+  );
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,7 +69,6 @@ header {
 
 #section1 .item {
   margin: 0 10%;
-  max-width: 505px;
 }
 
 h1.title {
